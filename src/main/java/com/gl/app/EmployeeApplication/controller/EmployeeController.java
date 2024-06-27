@@ -9,6 +9,7 @@ public class EmployeeController {
 
     @GetMapping("/employee")
     public ResponseEntity<String> getDetails(){
+        System.out.println("Employee Details");
         return new ResponseEntity<>("Employee Details", HttpStatus.OK);
     }
 }
