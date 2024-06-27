@@ -9,7 +9,7 @@ public class EmployeeController {
 
     @GetMapping("/employee")
     public ResponseEntity<String> getDetails(){
-        System.out.println("Employee Details");
+        System.out.println("Employee Details in main branch");
         return new ResponseEntity<>("Employee Details", HttpStatus.OK);
     }
 }
